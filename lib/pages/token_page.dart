@@ -190,14 +190,14 @@ class _TokenImportPageState extends State<TokenImportPage> {
                     children: [
                       Expanded(
                         child: Text(
-                          'Transaction Hash: https://testnet.bscscan.com/tx/$txHash',
+                          'Transaction Hash:\nhttps://testnet.bscscan.com/tx/$txHash',
                           overflow: TextOverflow.ellipsis,
                         ),
                       ),
                       IconButton(
                         icon: const Icon(Icons.copy),
                         onPressed: () {
-                          Clipboard.setData(ClipboardData(text: txHash));
+                          Clipboard.setData(ClipboardData(text: 'https://testnet.bscscan.com/tx/$txHash'));
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
                                 content: Text(
