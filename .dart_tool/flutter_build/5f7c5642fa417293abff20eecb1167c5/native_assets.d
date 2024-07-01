@@ -1,0 +1,1 @@
+ /Users/nsl/Repositories/BNBWallet/.dart_tool/flutter_build/5f7c5642fa417293abff20eecb1167c5/native_assets.yaml: 

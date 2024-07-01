@@ -1,0 +1,29 @@
+name: bnb_test_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web3dart: ^2.3.5
+  bip39: ^1.0.6
+  hex: ^0.2.0
+  http: ^0.13.5
+  flutter_secure_storage: ^5.0.2
+  mnemonic: ^1.0.0
+  wallet: ^0.0.12+1
+  bip32: ^2.0.0
+  url_launcher: ^6.1.13
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
